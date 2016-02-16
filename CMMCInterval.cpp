@@ -1,13 +1,13 @@
 #include "Arduino.h"
-#include "cmmcInterval.h"
+#include "CMMCInterval.h"
 
-cmmcInterval::cmmcInterval(int iTimeInterval, void (funcInterval)())
+CMMCInterval::CMMCInterval(int iTimeInterval, void (funcInterval)())
 {
 	iMillisInterval = iTimeInterval;
 	functionInterval = funcInterval;
 }
 
-void cmmcInterval::Update()
+void CMMCInterval::Update()
 {
   lMillisCurrent = millis();
  

@@ -1,12 +1,12 @@
-#ifndef cmmcInterval_h
-#define cmmcInterval_h
+#ifndef CMMCInterval_h
+#define CMMCInterval_h
 
 #include "Arduino.h"
 
-class cmmcInterval
+class CMMCInterval
 {
 	public:
-	cmmcInterval(int iTimeInterval,void (funcInterval)());
+	CMMCInterval(int iTimeInterval,void (funcInterval)());
 	void Update();
 
 	private:

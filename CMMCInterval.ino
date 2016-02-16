@@ -3,8 +3,8 @@
 void HelloWorld();
 void LoveYou();
 
-cmmcInterval myInterval1(1000,HelloWorld);
-cmmcInterval myInterval2(500,LoveYou);
+CMMCInterval myInterval1(1000,HelloWorld);
+CMMCInterval myInterval2(500,LoveYou);
 
 void setup() {
   Serial.begin(9600);
